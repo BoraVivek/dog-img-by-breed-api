@@ -21,7 +21,6 @@ header img{
 
 #site-info{
     padding: 10px;
-    height: 30px;
     background: darkcyan;
     color:white;
     font-size: 20px;
@@ -68,4 +67,29 @@ header img{
     border: 1px solid darkcyan;
     box-shadow: 0 0 4px 1px gray;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    #breed-selector-container{
+        display: block;
+    }
+
+    #get-img-btn{
+        width: 60%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    #dog-img-container{
+        flex-direction: column-reverse;
+    }
+
+    #next-img{
+        margin-bottom: 10px;
+    }
+
+    #dog-img-container img{
+        width: 95%;
+        margin-bottom: 20px;
+    }
 }
