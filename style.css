@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 4px -1px gray;
+}
+
+header img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+#site-info{
+    padding: 10px;
+    height: 30px;
+    background: darkcyan;
+    color:white;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align:center;
+}
+
+#breed-selector-container{
+    text-align:center;
+    margin-top: 40px;
+    padding: 40px;
+    background: lightcyan;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#breed-selector-container select{
+    height: 40px;
+    width: 200px;
+}
+
+#get-img-btn{
+    width: 90px;
+    cursor: pointer;
+}
+
+#dog-img-container{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#dog-img-container img{
+    height: 350px;
+    width: 400px;
+}
+
+#next-img{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid darkcyan;
+    box-shadow: 0 0 4px 1px gray;
+    cursor: pointer;
+}

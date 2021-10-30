@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOG API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://dog.ceo/img/dog-api-logo.svg" alt="DOG API" id="dog-api-img">
+            <h2>DOG API</h2>
+        </header>
+
+        <div id="site-info">
+            This is a DOG API where you can find dogs by their Breeds
+        </div>
+
+        <div id="breed-selector-container">
+            <div>
+                <select name="breed" id="dog-breeds">
+                    <option value="">Select Dog Breed</option>
+                </select>
+            </div>
+
+            <button id="get-img-btn">Get Image</button>
+
+        </div>
+
+        <div id="dog-img-container">
+            <img src="" id="dog-img" alt="">
+            <button id="next-img">Next >></button>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
